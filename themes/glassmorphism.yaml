@@ -1,0 +1,169 @@
+Glassmorphism:
+  # ============================================
+  # Glassmorphism Theme for Home Assistant
+  # A modern glass-morphism UI theme with
+  # blur effects and translucent cards
+  # ============================================
+
+  # Primary Colors
+  primary-color: "#6C63FF"
+  accent-color: "#6C63FF"
+  primary-background-color: "#0a0a0f"
+  secondary-background-color: "#12121a"
+
+  # Text
+  primary-text-color: "#ffffff"
+  secondary-text-color: "rgba(255, 255, 255, 0.7)"
+  disabled-text-color: "rgba(255, 255, 255, 0.3)"
+
+  # Header
+  app-header-background-color: "rgba(18, 18, 26, 0.8)"
+  app-header-text-color: "#ffffff"
+
+  # Cards
+  ha-card-background: "rgba(255, 255, 255, 0.08)"
+  ha-card-border-radius: "16px"
+  ha-card-border-color: "rgba(255, 255, 255, 0.12)"
+  ha-card-border-width: "1px"
+  ha-card-box-shadow: "0 8px 32px rgba(0, 0, 0, 0.2)"
+
+  # Sidebar
+  sidebar-background-color: "rgba(10, 10, 15, 0.95)"
+  sidebar-text-color: "#ffffff"
+  sidebar-icon-color: "rgba(255, 255, 255, 0.7)"
+  sidebar-selected-background-color: "rgba(108, 99, 255, 0.2)"
+  sidebar-selected-icon-color: "#6C63FF"
+  sidebar-selected-text-color: "#ffffff"
+
+  # Dialog
+  dialog-backdrop-filter: "blur(20px) saturate(180%)"
+
+  # Switch
+  switch-checked-color: "#6C63FF"
+  switch-unchecked-color: "rgba(255, 255, 255, 0.3)"
+
+  # Slider
+  paper-slider-active-color: "#6C63FF"
+  paper-slider-knob-color: "#6C63FF"
+  paper-slider-container-color: "rgba(255, 255, 255, 0.2)"
+
+  # Toggle
+  paper-toggle-button-checked-bar-color: "#6C63FF"
+  paper-toggle-button-checked-button-color: "#6C63FF"
+
+  # Divider
+  divider-color: "rgba(255, 255, 255, 0.08)"
+
+  # Input
+  input-fill-color: "rgba(255, 255, 255, 0.05)"
+  input-ink-color: "#ffffff"
+  input-label-ink-color: "rgba(255, 255, 255, 0.5)"
+
+  # Badges
+  label-badge-background-color: "rgba(255, 255, 255, 0.08)"
+  label-badge-text-color: "#ffffff"
+
+  # States
+  state-icon-active-color: "#6C63FF"
+  state-icon-color: "rgba(255, 255, 255, 0.5)"
+
+  # Chip
+  ha-chip-background-color: "rgba(255, 255, 255, 0.08)"
+  ha-chip-text-color: "#ffffff"
+
+  # Mushroom Specific
+  mush-rgb-state-entity: "108, 99, 255"
+  mush-rgb-state-light: "255, 193, 7"
+  mush-rgb-state-switch: "108, 99, 255"
+  mush-rgb-state-fan: "76, 175, 80"
+  mush-rgb-state-media-player: "3, 169, 244"
+  mush-rgb-state-climate: "255, 87, 34"
+  mush-rgb-state-lock: "239, 83, 80"
+  mush-rgb-state-cover: "156, 39, 176"
+
+  # Card Mod - Global Styles
+  card-mod-theme: Glassmorphism
+  card-mod-root-yaml: |
+    ha-app-layout:
+      $: |
+        .header {
+          backdrop-filter: blur(20px) saturate(180%) !important;
+          -webkit-backdrop-filter: blur(20px) saturate(180%) !important;
+        }
+  card-mod-card-yaml: |
+    .: |
+      ha-card {
+        backdrop-filter: blur(20px) saturate(180%) !important;
+        -webkit-backdrop-filter: blur(20px) saturate(180%) !important;
+        border: 1px solid rgba(255, 255, 255, 0.12) !important;
+        transition: all 0.3s ease !important;
+      }
+      ha-card:hover {
+        border-color: rgba(255, 255, 255, 0.2) !important;
+        box-shadow: 0 8px 40px rgba(0, 0, 0, 0.3) !important;
+      }
+
+Glassmorphism Light:
+  # ============================================
+  # Glassmorphism Light Variant
+  # ============================================
+
+  # Primary Colors
+  primary-color: "#6C63FF"
+  accent-color: "#6C63FF"
+  primary-background-color: "#f0f0f5"
+  secondary-background-color: "#e8e8f0"
+
+  # Text
+  primary-text-color: "#1a1a2e"
+  secondary-text-color: "rgba(26, 26, 46, 0.7)"
+  disabled-text-color: "rgba(26, 26, 46, 0.3)"
+
+  # Header
+  app-header-background-color: "rgba(240, 240, 245, 0.8)"
+  app-header-text-color: "#1a1a2e"
+
+  # Cards
+  ha-card-background: "rgba(255, 255, 255, 0.6)"
+  ha-card-border-radius: "16px"
+  ha-card-border-color: "rgba(255, 255, 255, 0.8)"
+  ha-card-border-width: "1px"
+  ha-card-box-shadow: "0 8px 32px rgba(0, 0, 0, 0.08)"
+
+  # Sidebar
+  sidebar-background-color: "rgba(240, 240, 245, 0.95)"
+  sidebar-text-color: "#1a1a2e"
+  sidebar-icon-color: "rgba(26, 26, 46, 0.7)"
+  sidebar-selected-background-color: "rgba(108, 99, 255, 0.15)"
+  sidebar-selected-icon-color: "#6C63FF"
+  sidebar-selected-text-color: "#1a1a2e"
+
+  # Switch
+  switch-checked-color: "#6C63FF"
+  switch-unchecked-color: "rgba(26, 26, 46, 0.3)"
+
+  # Divider
+  divider-color: "rgba(26, 26, 46, 0.08)"
+
+  # States
+  state-icon-active-color: "#6C63FF"
+  state-icon-color: "rgba(26, 26, 46, 0.5)"
+
+  # Mushroom Specific
+  mush-rgb-state-entity: "108, 99, 255"
+  mush-rgb-state-light: "255, 193, 7"
+  mush-rgb-state-switch: "108, 99, 255"
+
+  # Card Mod - Global Styles
+  card-mod-theme: "Glassmorphism Light"
+  card-mod-card-yaml: |
+    .: |
+      ha-card {
+        backdrop-filter: blur(20px) saturate(180%) !important;
+        -webkit-backdrop-filter: blur(20px) saturate(180%) !important;
+        border: 1px solid rgba(255, 255, 255, 0.8) !important;
+        transition: all 0.3s ease !important;
+      }
+      ha-card:hover {
+        box-shadow: 0 8px 40px rgba(0, 0, 0, 0.12) !important;
+      }
