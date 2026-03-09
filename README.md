@@ -19,9 +19,13 @@ A modern **glassmorphism** UI theme for Home Assistant with frosted glass effect
 
 ## Screenshots
 
-| Web | Mobile |
-|-----|--------|
-| ![Web](screenshots/web.png) | ![Mobile](screenshots/mobil.png) |
+### Web
+![Web](screenshots/web.png)
+
+### Mobile
+<p align="center">
+  <img src="screenshots/mobil.png" width="300">
+</p>
 
 ## Requirements
 
