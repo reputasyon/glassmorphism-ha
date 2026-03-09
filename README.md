@@ -1,11 +1,11 @@
 # Glassmorphism Theme for Home Assistant
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Default-41BDF5.svg)](https://github.com/hacs/integration)
-[![License](https://img.shields.io/github/license/abdullahcadirci/glassmorphism-ha)](LICENSE)
+[![License](https://img.shields.io/github/license/reputasyon/glassmorphism-ha)](LICENSE)
 
 A modern **glassmorphism** UI theme for Home Assistant with frosted glass effects, blur backgrounds, and translucent cards.
 
-![Glassmorphism Theme Preview](screenshots/preview.png)
+![Glassmorphism Theme Preview](screenshots/web.png)
 
 ## Features
 
@@ -19,9 +19,9 @@ A modern **glassmorphism** UI theme for Home Assistant with frosted glass effect
 
 ## Screenshots
 
-| Dark Mode | Light Mode |
-|-----------|------------|
-| ![Dark](screenshots/dark.png) | ![Light](screenshots/light.png) |
+| Web | Mobile |
+|-----|--------|
+| ![Web](screenshots/web.png) | ![Mobile](screenshots/mobil.png) |
 
 ## Requirements
 
@@ -35,14 +35,14 @@ A modern **glassmorphism** UI theme for Home Assistant with frosted glass effect
 
 1. Open HACS in Home Assistant
 2. Go to **Frontend** > **3 dots menu** > **Custom repositories**
-3. Add `https://github.com/abdullahcadirci/glassmorphism-ha` as **Theme**
+3. Add `https://github.com/reputasyon/glassmorphism-ha` as **Theme**
 4. Search for **Glassmorphism** and install
 5. Restart Home Assistant
 6. Go to **Profile** > **Theme** > Select **Glassmorphism** or **Glassmorphism Light**
 
 ### Manual Installation
 
-1. Download `glassmorphism.yaml` from the [latest release](https://github.com/abdullahcadirci/glassmorphism-ha/releases)
+1. Download `glassmorphism.yaml` from the [latest release](https://github.com/reputasyon/glassmorphism-ha/releases)
 2. Copy to `config/themes/glassmorphism.yaml`
 3. Restart Home Assistant
 4. Select the theme in your profile
